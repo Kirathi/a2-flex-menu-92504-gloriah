@@ -6,38 +6,61 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+/*Sets body styles which will be inherited by other elements that are not styled*/
 body {
   font-family: Georgia, serif;
   line-height: 1.5em;
 }
+
+/*Sytles all the heading1*/
 h1 {
   font-size: 4em;
   font-weight: normal;
 }
+
+/*Sytles all the heading2*/
 h2 {
   font-size: 1.2em;
   margin-top: 0;
 }
+/*Sets the menu border*/
 #menu {
   border: 3px solid #783F27;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: center;
+  padding-left: 5%;
 }
+/*Sytles the section parts*/
 section {
   background: #F6F3ED;
   margin: 10px;
   padding: 20px;
   border: 1px dotted maroon;
-  width: 255px;
+  width: 30%;
 }
+
+/*Sets Sytles for the title*/
 .title {
   background-color: #783F27;
   color: #F9AB33;
   line-height: 4em;
+  width: 100%;
+  text-align: center;
 }
+
+/*Sets Sytles for the price tags*/
 .price {
   font-weight: bold;
   background: #F9AB33;
   padding: 5px;
   width: 100%;
+  text-align: center;
+}
+
+.photo{
   text-align: center;
 }
